@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app.techiedb.com.passivemvc.views.LoginView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/login_form"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+    <EditText
+            android:id="@+id/email_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_prompt_email"
+            android:textColorHint="@android:color/holo_blue_light"
+            android:inputType="textEmailAddress"/>
+    <EditText
+            android:id="@+id/password_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_prompt_password"
+            android:textColorHint="@android:color/darker_gray"
+            android:inputType="textPassword"/>
+    <Button android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:paddingLeft="32dp"
+            android:paddingRight="32dp"
+            android:text="@string/action_signin_register"/>
+</app.techiedb.com.passivemvc.views.LoginView>

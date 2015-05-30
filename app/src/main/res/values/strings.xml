@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PassiveMVC</string>
+
+    <string name="login_welcome_message">You\'re logged in successfully!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_prompt_email">Enter your email\'s address</string>
+    <string name="action_signin_register">Sign in</string>
+    <string name="hint_prompt_password">Enter your password</string>
+</resources>
